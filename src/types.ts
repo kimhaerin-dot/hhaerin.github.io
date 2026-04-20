@@ -1,0 +1,8 @@
+export interface FeedItem {
+  id: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  images: string[];
+  tags: string[];
+}
